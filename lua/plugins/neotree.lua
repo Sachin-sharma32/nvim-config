@@ -14,6 +14,11 @@ return {
 						["<C-u>"] = "image_wezterm", -- " or another map
 					},
 				},
+				filtered_items = {
+					visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"
+					hide_dotfiles = false,
+					hide_gitignored = true,
+				},
 				commands = {
 					image_wezterm = function(state)
 						local node = state.tree:get_node()
@@ -23,9 +28,15 @@ return {
 					end,
 				},
 			},
+			window = {
+				mappings = {
+					["<C-r>"] = "rename",
+					["<C-n>"] = "add",
+				},
+			},
 		})
 
-		vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>")
+		vim.keymap.set("n", "<leader>n", ":Neotree toggle<CR>")
 		vim.keymap.set("n", "<leader>a", ":Neotree focus<CR>")
 	end,
 }

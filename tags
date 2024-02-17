@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+config 	lua/plugins/auto-close-tags.lua	/^	config = function()$/;"	f
+config 	lua/plugins/auto-save.lua	/^	config = function()$/;"	f
+config 	lua/plugins/auto-tag.lua	/^  config = function()$/;"	f
+config 	lua/plugins/better-comment.lua	/^  config = function()$/;"	f
+config 	lua/plugins/catppuccin.lua	/^  config = function()$/;"	f
+config 	lua/plugins/color-highlight.lua	/^	config = function()$/;"	f
+config 	lua/plugins/completions.lua	/^		config = function()$/;"	f
+config 	lua/plugins/debugging.lua	/^		config = function()$/;"	f
+config 	lua/plugins/format-on-save.lua	/^	config = function()$/;"	f
+config 	lua/plugins/git.lua	/^		config = function()$/;"	f
+config 	lua/plugins/image-preview.lua	/^	config = function()$/;"	f
+config 	lua/plugins/live-server.lua	/^	config = function()$/;"	f
+config 	lua/plugins/lsp-config.lua	/^		config = function()$/;"	f
+config 	lua/plugins/lua-line.lua	/^    config = function()$/;"	f
+config 	lua/plugins/neotree.lua	/^	config = function()$/;"	f
+config 	lua/plugins/none-ls.lua	/^	config = function()$/;"	f
+config 	lua/plugins/telescope.lua	/^    config = function()$/;"	f
+config 	lua/plugins/toggle-term.lua	/^  config = function()$/;"	f
+config 	lua/plugins/treesitter.lua	/^	config = function()$/;"	f
+dap.listeners.before.attach.dapui_config 	lua/plugins/debugging.lua	/^			dap.listeners.before.attach.dapui_config = function()$/;"	f
+dap.listeners.before.event_exited.dapui_config 	lua/plugins/debugging.lua	/^			dap.listeners.before.event_exited.dapui_config = function()$/;"	f
+dap.listeners.before.event_terminated.dapui_config 	lua/plugins/debugging.lua	/^			dap.listeners.before.event_terminated.dapui_config = function()$/;"	f
+dap.listeners.before.launch.dapui_config 	lua/plugins/debugging.lua	/^			dap.listeners.before.launch.dapui_config = function()$/;"	f
+expand 	lua/plugins/completions.lua	/^					expand = function(args)$/;"	f
+image_wezterm 	lua/plugins/neotree.lua	/^					image_wezterm = function(state)$/;"	f

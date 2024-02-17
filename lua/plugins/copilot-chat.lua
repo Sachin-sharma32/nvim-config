@@ -1,1 +1,3 @@
-return { "gptlang/CopilotChat.nvim" }
+return {
+  "CopilotC-Nvim/CopilotChat.nvim",
+}
