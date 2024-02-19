@@ -17,9 +17,3 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {}
 local val = {}
 require("lazy").setup("plugins")
-
---TODO: hello world
---TODO: hello world
---HACK: this is a hack
---NEW: is the best person
---NEW: sachin is the best
