@@ -13,11 +13,12 @@ return {
     config = function()
       require("gitsigns").setup({
         signs = {
-          add = { text = "+" },
-          change = { text = "~" },
+          add = { text = "│" },
+          change = { text = "│" },
           delete = { text = "_" },
           topdelete = { text = "‾" },
           changedelete = { text = "~" },
+          untracked = { text = "┆" },
         },
         current_line_blame = false,
         on_attach = function(bufnr)
@@ -52,6 +53,7 @@ return {
 
           -- Actions
           map({ "n", "v" }, "<leader>hs", ":Gitsigns stage_hunk<CR>")
+
           map({ "n", "v" }, "<leader>hr", ":Gitsigns reset_hunk<CR>")
           map("n", "<leader>hS", gs.stage_buffer)
           map("n", "<leader>ha", gs.stage_hunk)
